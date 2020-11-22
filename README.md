@@ -11,7 +11,7 @@ x.y.z.35:/volume1/nextcloud /mnt/nextcloud_nfs defaults 0 0
 # create directory
 mkdir /mnt/nextcloud_nfs/ncdata
 chown -R www-data:www-data /mnt/nextcloud_nfs
-chmod -R +rw  /mnt/nextcloud_nfs
+chmod -R 755  /mnt/nextcloud_nfs
 
 # move data directory
 x.y.z.35:4443/?app=nc-datadir
