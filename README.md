@@ -1,6 +1,6 @@
 # nextcloud_setup
 
-### nfs
+### data dir on nfs
 ```
 # show nfs list
 showmount -e x.y.z.35
